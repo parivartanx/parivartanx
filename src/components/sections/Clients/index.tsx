@@ -24,7 +24,7 @@ export function ClientLogos() {
           className="text-center mb-12"
         >
           <h2 className="text-2xl font-bold mb-2">Trusted By Industry Leaders</h2>
-          <p className="text-muted-foreground">Companies we've worked with</p>
+          <p className="text-muted-foreground">Companies we&apos;ve worked with</p>
         </motion.div>
 
         <div className="relative">

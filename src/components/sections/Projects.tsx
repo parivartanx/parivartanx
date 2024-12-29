@@ -1,5 +1,6 @@
 'use client'
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const projects = [
   {
@@ -48,10 +49,12 @@ export function Projects() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
             >
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
-                className="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-110"
+                layout="fill"
+                objectFit="cover"
+                className="transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-6 flex flex-col justify-end text-white transform transition-transform duration-300">
                 <span className="text-sm text-indigo-300 mb-2">{project.category}</span>

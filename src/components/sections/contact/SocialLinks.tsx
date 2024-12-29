@@ -1,6 +1,6 @@
 import { Facebook, Twitter, Instagram } from "lucide-react";
 
-function SocialButton({ Icon, href }: { Icon: any; href: string }) {
+function SocialButton({ Icon, href }: { Icon: React.ComponentType<{ className?: string }>; href: string }) {
   return (
     <a
       href={href}
