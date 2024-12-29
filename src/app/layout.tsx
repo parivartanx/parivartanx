@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Providers } from "../components/providers";
 import { ThemeToggle } from "../components/theme-toggle";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
     "FinTech App Development",
     "IoT Development",
     "AR/VR Development",
-    
+
   ],
   themeColor: "#ffffff",
   openGraph: {
@@ -101,6 +102,7 @@ export default function RootLayout({
           <ThemeToggle />
           {children}
         </Providers>
+        <Analytics/>
       </body>
     </html>
   );
