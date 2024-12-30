@@ -1,10 +1,8 @@
 'use client'
 import { ArrowRight, Sparkles } from 'lucide-react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import HeroSection from '../3d/HeroSection';
 // import { Scene } from '../3d/Scene';
-import Touch from '../../../public/touch-icon.png'
 
 export function Hero() {
   return (
@@ -60,14 +58,14 @@ export function Hero() {
           </motion.div>
         </motion.div>
       </div>
-      <div 
+      {/* <div 
         onClick={() => {
            
         }}
         className='absolute bottom-0 right-2 flex justify-center  bg-background  border border-primary rounded-md'>
-      <Image src={Touch.src} alt="Get in Touch" width={200} height={80} />
+        <Image src={Touch.src} alt="Get in Touch" width={200} height={80} />
 
-      </div>
+      </div> */}
     </div>
   );
 }
