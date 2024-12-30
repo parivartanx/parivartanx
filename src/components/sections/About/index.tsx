@@ -1,8 +1,8 @@
 'use client'
 import { motion } from 'framer-motion';
 import { HighlightItem } from './HighlightItem';
-import { highlights, stats } from './aboutData';
-import { StatsCard } from './stats-card';
+import { highlights, } from './aboutData';
+// import { StatsCard } from './stats-card';
 
 export function About() {
   return (

@@ -3,7 +3,6 @@ import { Hero } from '../components/sections/Hero';
 import { Projects } from '../components/sections/Projects';
 import { About } from '../components/sections/About';
 import ContactSection from '../components/sections/contact';
-import HeroSection from '@/components/3d/HeroSection';
 import { Navbar } from '@/components/sections/navbar';
 import { Footer } from '@/components/sections/footer';
 import { ClientLogos } from '@/components/sections/Clients';

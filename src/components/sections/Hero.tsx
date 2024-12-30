@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import HeroSection from '../3d/HeroSection';
 // import { Scene } from '../3d/Scene';
 import Touch from '../../../public/touch-icon.png'
-import { useRouter } from 'next/navigation';
 
 export function Hero() {
   return (
@@ -33,7 +32,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            Building Tomorrow's
+            Building Tomorrow&apos;s
             <br />
             <span className="text-indigo-400">Digital Solutions</span>
           </motion.h1>

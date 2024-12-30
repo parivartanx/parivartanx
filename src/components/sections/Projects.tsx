@@ -12,6 +12,7 @@ const projects = [
     title: 'Healthcare Management System',
     category: 'Healthcare',
     image: "/projects/project2.webp",
+
     description: 'Streamlined patient care and medical record management system.'
   },
   {
@@ -34,7 +35,7 @@ export function Projects() {
         >
           <h2 className="text-4xl font-bold mb-4">Featured Projects</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover how we've helped businesses transform their digital presence
+            Discover how we&apos;ve helped businesses transform their digital presence
           </p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
